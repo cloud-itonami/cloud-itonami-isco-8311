@@ -87,7 +87,7 @@
                                 ceiling without human sign-off).
    10. low confidence (< `confidence-floor`)."
   (:require [railcrew.store :as store]
-            [clojure.string :as str]))
+            [kotoba.lang.text :as str]))
 
 (def confidence-floor 0.6)
 
@@ -119,7 +119,7 @@
    "override the signal to proceed"])
 
 (defn- scope-excluded-text? [s]
-  (let [low (str/lower-case (or s ""))]
+  (let [low (str/lower (or s ""))]
     (boolean (some #(str/includes? low %) scope-exclusion-terms))))
 
 (defn- scope-excluded? [proposal]
