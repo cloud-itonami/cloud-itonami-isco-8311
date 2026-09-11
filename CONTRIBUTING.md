@@ -24,7 +24,7 @@ behavior.
   This actor coordinates ADMINISTRATIVE/LOGISTICS SCHEDULING ONLY.
 - Treat this occupation's workflows as high-risk: add tests for permission,
   purpose, safety and audit logging, including scope-exclusion regression
-  tests (see `test/railcrew/advisor_test.clj`).
+  tests (see `test/railcrew/advisor_test.cljk`).
 - Document any new business-model or operator assumption in `docs/`.
 
 ## Pull Requests

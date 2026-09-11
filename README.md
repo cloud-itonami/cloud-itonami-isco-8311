@@ -35,7 +35,7 @@ brake-control or signal-override/stop-signal-departure op, a dedicated
 scope-exclusion rule that hard-blocks any proposal whose rationale text
 directly describes finalizing such a decision (defense-in-depth against an
 advisor smuggling a forbidden action into an allowed op — see
-`test/railcrew/advisor_test.clj` for the dedicated regression test proving
+`test/railcrew/advisor_test.cljk` for the dedicated regression test proving
 the mock-advisor's own default rationale text never self-trips this rule),
 a registered assignment basis for any proposal citing one, and an attached
 service log before any service record can be logged (logging without one
