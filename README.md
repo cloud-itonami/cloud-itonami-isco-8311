@@ -25,7 +25,7 @@ wired to a `Rail Crew Advisor` (`railcrew.advisor`) and an independent
 pattern (ADR-2607121000): `:intake -> :advise -> :govern -> :decide -+->
 :commit (:ok?) +-> :request-approval (:escalate?, human-in-the-loop
 interrupt) +-> :hold (:hard?)`. 22 tests / 48 assertions green
-(`clojure -M:test`).
+(`kbb -M:test`).
 
 HARD invariants (always hold, never overridable): driver provenance, the
 driver's route-license record must be independently verified/registered
