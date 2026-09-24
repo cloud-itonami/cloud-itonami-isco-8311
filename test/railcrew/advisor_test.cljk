@@ -11,7 +11,7 @@
   specifically to avoid this. This test asserts every op the
   mock-advisor can produce for a well-formed request never trips the
   governor's hard scope-exclusion rule."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [railcrew.store :as store]
             [railcrew.advisor :as advisor]
             [railcrew.governor :as governor]))
