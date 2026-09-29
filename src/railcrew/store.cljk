@@ -1,6 +1,6 @@
 (ns railcrew.store
   "SSoT for the ISCO-08 8311 locomotive engine drivers actor (itonami
-  actor pattern, ADR-2607121000 / CLAUDE.md Actors section; README's
+  actor pattern, ADR-2607121000 / AGENTS.md Actors section; README's
   'Robotics premise' — a rail-crew scheduling and logistics
   coordination robot performs service-record logging, crew-roster
   proposals and maintenance-order coordination under this
