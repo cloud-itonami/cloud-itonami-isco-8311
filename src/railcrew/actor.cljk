@@ -1,6 +1,6 @@
 (ns railcrew.actor
   "RailCrewActor — the ISCO-08 8311 locomotive engine drivers actor as
-  a `langgraph.graph/state-graph` (ADR-2607121000 / CLAUDE.md Actors
+  a `langgraph.graph/state-graph` (ADR-2607121000 / AGENTS.md Actors
   section). One graph run = one rail-crew scheduling/logistics
   operation request (intake -> advise -> govern -> decide ->
   commit/hold, with a human-approval interrupt for escalated
